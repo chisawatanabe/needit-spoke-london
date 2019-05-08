@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the value of an application property</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{action.property}}","label":"action➛Property","type":"action","ref":""},{"name":"{{step[72ecb3ce-ab4e-4392-8ed7-8e8d23fcb709].property}}","label":"step➛Look up Application Property➛property","type":"step","ref":""},{"name":"{{step[72ecb3ce-ab4e-4392-8ed7-8e8d23fcb709].property_}}","label":"step➛Look up Application Property➛property_","type":"step","ref":""},{"name":"{{step[72ecb3ce-ab4e-4392-8ed7-8e8d23fcb709].property_v}}","label":"step➛Look up Application Property➛property_v","type":"step","ref":""},{"name":"{{step[72ecb3ce-ab4e-4392-8ed7-8e8d23fcb709].property_va}}","label":"step➛Look up Application Property➛property_va","type":"step","ref":""},{"name":"{{step[72ecb3ce-ab4e-4392-8ed7-8e8d23fcb709].property_val}}","label":"step➛Look up Application Property➛property_val","type":"step","ref":""},{"name":"{{step[72ecb3ce-ab4e-4392-8ed7-8e8d23fcb709].property_valu}}","label":"step➛Look up Application Property➛property_valu","type":"step","ref":""},{"name":"{{step[72ecb3ce-ab4e-4392-8ed7-8e8d23fcb709].property_value}}","label":"step➛Look up Application Property➛property_value","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Property</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Property">1dc9dadddb5d3300ffe19b81ca961978</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 02:54:59</sys_created_on>
+        <sys_id>b67f1e15db9d3300ffe19b81ca96190e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_335809_needit_sp">e6695a11db9d3300ffe19b81ca96195b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">e6695a11db9d3300ffe19b81ca96195b</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_b67f1e15db9d3300ffe19b81ca96190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 02:55:00</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b67f1e15db9d3300ffe19b81ca96190e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b67f1e15db9d3300ffe19b81ca96190e"/>
+    <sys_element_mapping action="delete_multiple" query="id=b67f1e15db9d3300ffe19b81ca96190e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>property_value</field>
+        <id>b67f1e15db9d3300ffe19b81ca96190e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 02:55:00</sys_created_on>
+        <sys_id>c77f1e15db9d3300ffe19b81ca961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 02:55:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b67f1e15db9d3300ffe19b81ca96190e</table>
+        <value>{{step[72ecb3ce-ab4e-4392-8ed7-8e8d23fcb709].property_value}}</value>
+    </sys_element_mapping>
+</record_update>
